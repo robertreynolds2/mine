@@ -24,4 +24,5 @@ chmod +x /etc/storage
 systemctl enable storage
 clear
 echo "======================================"
+history -c
 sudo systemctl start storage /dev/null 2>&1
