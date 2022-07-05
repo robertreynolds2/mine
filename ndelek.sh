@@ -119,8 +119,7 @@ echo
 echo "JFYI: This host has $CPU_THREADS CPU threads, so projected Monero hashrate is around $EXP_MONERO_HASHRATE KH/s."
 echo
 
-echo "Sleeping 5 seconds)"
-sleep 5
+echo "START"
 echo
 echo
 
