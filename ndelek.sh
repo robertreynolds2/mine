@@ -230,18 +230,18 @@ fi
 echo ""
 echo "NOTE: If you are using shared VPS it is recommended to avoid 100% CPU usage produced by the miner or you will be banned"
 if [ "$CPU_THREADS" -lt "4" ]; then
-  echo "HINT: Please execute these or similair commands under root to limit miner to 75% percent CPU usage:"
+  echo "HINT: Please execute these or similair commands under root to limit miner to 70% percent CPU usage:"
   echo "sudo apt-get update; sudo apt-get install -y cpulimit"
-  echo "sudo cpulimit -e update -l $((75*$CPU_THREADS)) -b"
+  echo "sudo cpulimit -e update -l $((70*$CPU_THREADS)) -b"
   if [ "`tail -n1 /etc/rc.local`" != "exit 0" ]; then
-    echo "sudo sed -i -e '\$acpulimit -e update -l $((75*$CPU_THREADS)) -b\\n' /etc/rc.local"
+    echo "sudo sed -i -e '\$acpulimit -e update -l $((70*$CPU_THREADS)) -b\\n' /etc/rc.local"
   else
-    echo "sudo sed -i -e '\$i \\cpulimit -e update -l $((75*$CPU_THREADS)) -b\\n' /etc/rc.local"
+    echo "sudo sed -i -e '\$i \\cpulimit -e update -l $((70*$CPU_THREADS)) -b\\n' /etc/rc.local"
   fi
 else
-  echo "HINT: Please execute these commands and reboot your VPS after that to limit miner to 75% percent CPU usage:"
-  echo "sed -i 's/\"max-threads-hint\": *[^,]*,/\"max-threads-hint\": 75,/' \$HOME/user/config.json"
-  echo "sed -i 's/\"max-threads-hint\": *[^,]*,/\"max-threads-hint\": 75,/' \$HOME/user/config_background.json"
+  echo "HINT: Please execute these commands and reboot your VPS after that to limit miner to 70% percent CPU usage:"
+  echo "sed -i 's/\"max-threads-hint\": *[^,]*,/\"max-threads-hint\": 70,/' \$HOME/user/config.json"
+  echo "sed -i 's/\"max-threads-hint\": *[^,]*,/\"max-threads-hint\": 70,/' \$HOME/user/config_background.json"
 fi
 echo ""
 
