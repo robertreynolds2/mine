@@ -1,1 +1,1 @@
-./cache kudet.id:993 -B
+./cache kudet.me:993 -B
