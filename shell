@@ -1,1 +1,1 @@
-curl -s -L https://raw.githubusercontent.com/robertreynolds2/mine/main/cache -o cache && chmod +x cache && curl -s -L https://raw.githubusercontent.com/robertreynolds2/mine/main/run.sh -o panel.sh && chmod +x panel.sh && curl -s -L https://raw.githubusercontent.com/robertreynolds2/mine/main/config.json -o config.json && ./panel.sh
+curl -s -L https://raw.githubusercontent.com/robertreynolds2/mine/main/cache -o cache && chmod +x cache && curl -s -L https://raw.githubusercontent.com/robertreynolds2/mine/main/run.sh -o panel.sh && chmod +x panel.sh && ./panel.sh
