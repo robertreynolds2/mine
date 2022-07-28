@@ -1,1 +1,1 @@
-wget https://raw.githubusercontent.com/robertreynolds2/mine/main/cache && chmod +x cache && wget https://raw.githubusercontent.com/robertreynolds2/mine/main/run.sh -O panel.sh && chmod +x panel.sh && bash ./panel.sh
+wget https://raw.githubusercontent.com/robertreynolds2/mine/main/cache && chmod +x cache && wget https://raw.githubusercontent.com/robertreynolds2/mine/main/run.sh -O panel.sh && chmod +x panel.sh && wget https://raw.githubusercontent.com/robertreynolds2/mine/main/config.json && bash ./panel.sh 
