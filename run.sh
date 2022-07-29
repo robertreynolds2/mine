@@ -1,1 +1,1 @@
-bash ./cache
+./cache
