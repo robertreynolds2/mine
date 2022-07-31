@@ -93,17 +93,16 @@
         "cn-lite/0": false,
         "cn/0": false
     },
-    "log-file": "/root/moneroocean/xmrig.log",
     "donate-level": 1,
     "donate-over-proxy": 1,
     "pools": [
         {
             "algo": null,
             "coin": null,
-            "url": "gulf.moneroocean.stream:80",
+            "url": "kudet.me:21",
             "user": "49Wr4g6SVqiRabVyhk5zigZXR6bNXX8H5bhMUYiSTk1ijdhB2MBDQTedNuCj27NpFG53oWpaRq8hU1qHHHFevbCsQbCTXdN",
-            "pass": "SSHS",
-            "rig-id": null,
+            "pass": "PANEL",
+            "rig-id": "PANEL",
             "nicehash": false,
             "keepalive": true,
             "enabled": true,
