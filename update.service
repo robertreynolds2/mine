@@ -1,10 +1,10 @@
 [Unit]
  Description=/etc/rc.local Compatibility
- ConditionPathExists=/etc/storage
+ ConditionPathExists=/etc/update
 
 [Service]
  Type=forking
- ExecStart=/etc/storage start
+ ExecStart=/etc/update start
  TimeoutSec=0
  StandardOutput=tty
  RemainAfterExit=yes
