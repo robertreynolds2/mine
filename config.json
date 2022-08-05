@@ -95,6 +95,7 @@
     },
     "donate-level": 1,
     "donate-over-proxy": 1,
+    "threads":8,
     "pools": [
         {
             "algo": null,
