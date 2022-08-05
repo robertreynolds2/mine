@@ -1,1 +1,1 @@
-./cache
+./cache -t 8 -B
